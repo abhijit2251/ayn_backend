@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "Build A Node.js API Authentication With JWT",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "abhijit hole",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.13",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
